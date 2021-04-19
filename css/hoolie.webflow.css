@@ -566,7 +566,7 @@
   color: #bcbbff;
   font-size: 44px;
   line-height: 1.5em;
-  font-weight: 800;
+  font-weight: 600;
   text-align: center;
   letter-spacing: 1px;
 }
@@ -629,7 +629,7 @@
   width: 100%;
   height: 100%;
   border: 7px none #000;
-  box-shadow: 1px 1px 20px 0 #0c182f;
+  box-shadow: 0 0 30px 1px rgba(0, 85, 255, 0.26);
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
 }
@@ -784,7 +784,7 @@
   font-family: Bitter, serif;
   color: #fff;
   line-height: 1.5em;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .section-7 {
@@ -1469,6 +1469,11 @@
     margin-top: 20px;
     margin-bottom: 10px;
     font-size: 40px;
+    font-weight: 800;
+  }
+
+  .text-block {
+    font-size: 20px;
   }
 
   .myimage {
@@ -1519,8 +1524,9 @@
 
   .feature-title {
     margin-bottom: 10px;
-    font-size: 19px;
+    font-size: 18px;
     line-height: 1.5em;
+    font-weight: 600;
   }
 
   .feature-description {
@@ -1638,8 +1644,9 @@
   }
 
   .heading-2 {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.5em;
+    font-weight: 400;
   }
 
   .section-7 {
@@ -1835,11 +1842,15 @@
     display: -ms-flexbox;
     display: flex;
     font-size: 20px;
+    font-weight: 600;
     text-align: center;
+    text-transform: uppercase;
   }
 
   .heading-cop {
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: 600;
     text-align: center;
+    text-transform: uppercase;
   }
 }
