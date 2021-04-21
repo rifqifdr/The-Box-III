@@ -1426,8 +1426,11 @@
 }
 
 .container-showreel {
-  display: block;
-  height: 50vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
   max-width: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1438,10 +1441,10 @@
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: #000;
   text-align: center;
 }
@@ -1467,6 +1470,7 @@
 }
 
 .showreel {
+  display: none;
   width: 1400px;
   height: 500px;
   -o-object-fit: cover;
