@@ -1425,6 +1425,10 @@
   letter-spacing: 1px;
 }
 
+.section-showreel {
+  display: none;
+}
+
 .container-showreel {
   display: -webkit-box;
   display: -webkit-flex;
