@@ -1508,6 +1508,14 @@
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.icon-left:hover {
+  -webkit-transform: translate(3px, 0px);
+  -ms-transform: translate(3px, 0px);
+  transform: translate(3px, 0px);
 }
 
 .icon-3 {
@@ -1531,6 +1539,14 @@
   -webkit-transform: rotate(-180deg);
   -ms-transform: rotate(-180deg);
   transform: rotate(-180deg);
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.icon-right:hover {
+  -webkit-transform: translate(-3px, 0px) rotate(-180deg);
+  -ms-transform: translate(-3px, 0px) rotate(-180deg);
+  transform: translate(-3px, 0px) rotate(-180deg);
 }
 
 @media screen and (max-width: 479px) {
