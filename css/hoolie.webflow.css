@@ -1646,6 +1646,7 @@
 }
 
 .feature-slide-horizontal {
+  overflow: hidden;
   height: 300vw;
 }
 
