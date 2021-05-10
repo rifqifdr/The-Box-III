@@ -1632,10 +1632,16 @@
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
   font-family: Exo, sans-serif;
   color: #ececec;
   font-weight: 600;
   text-decoration: none;
+}
+
+.trailer-button-on:hover {
+  color: #bcbbff;
 }
 
 @media screen and (max-width: 479px) {
