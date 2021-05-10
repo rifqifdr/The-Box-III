@@ -1646,7 +1646,8 @@
 }
 
 .feature-slide-horizontal {
-  height: 100vw;
+  overflow: hidden;
+  height: 300vw;
 }
 
 .camera {
