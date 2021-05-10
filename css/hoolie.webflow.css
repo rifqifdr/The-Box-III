@@ -1756,7 +1756,7 @@
 }
 
 .item-div {
-  width: 500px;
+  width: 100vw;
   height: 200px;
   border-style: solid;
   border-width: 1px;
