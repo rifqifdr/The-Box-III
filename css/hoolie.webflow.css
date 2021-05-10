@@ -1628,6 +1628,10 @@
 }
 
 .trailer-button-on {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
   font-family: Exo, sans-serif;
   color: #ececec;
   font-weight: 600;
