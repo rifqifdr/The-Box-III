@@ -1695,8 +1695,7 @@
   display: flex;
   width: auto;
   height: 100vh;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 40px 60px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
