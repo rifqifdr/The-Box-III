@@ -253,7 +253,6 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 40%;
   padding: 46px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -264,10 +263,10 @@
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
 }
 
 .div-feature-json {
